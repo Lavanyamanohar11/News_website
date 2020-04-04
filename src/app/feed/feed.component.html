@@ -7,7 +7,10 @@
                     <p>Cras sit amet nibhlibero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
                         vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
                         Donec lacinia congue felis in faucibus.</p>
-                    <button class="btn btn-primary">Read more...</button>
+                    <button [style.visibility]="readMoreShow" class="btn btn-primary" (click)="readMore()">Read more...</button>
+                    <p [class.display-none]="displayText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed eum pariatur odio dolorum nostrum quisquam reprehenderit quaerat similique ex, culpa aliquam ut suscipit impedit libero quasi sapiente, illum distinctio!</p>
+                    
+                    <button [style.visibility]="readLessShow" class="btn btn-primary" (click)="readLess()">Read less...</button>
                 </div>
         </div>
     </div>
@@ -20,7 +23,10 @@
                     <p>Cras sit amet nibhlibero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
                         vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
                         Donec lacinia congue felis in faucibus.</p>
-                    <button class="btn btn-primary">Read more...</button>
+                    <button [style.visibility]="readMoreShow2" class="btn btn-primary" (click)="readMore2()">Read more...</button>
+                    <p [class.display-none]="displayText2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed eum pariatur odio dolorum nostrum quisquam reprehenderit quaerat similique ex, culpa aliquam ut suscipit impedit libero quasi sapiente, illum distinctio!</p>
+                    
+                    <button [style.visibility]="readLessShow2" class="btn btn-primary" (click)="readLess2()">Read less...</button>
                 </div>
         </div>
     </div>
