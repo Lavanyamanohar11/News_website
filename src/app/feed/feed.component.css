@@ -1,0 +1,17 @@
+.outer-div{
+    background-color:#f4f4f4;
+    min-height:70vh;
+}
+.feed-img{
+    height:150px;
+}
+.shadow{
+    padding: 10px;
+    box-shadow: 5px 10px 18px #000;
+  }
+  .card{
+      margin:10px 100px;
+  }
+  .heading{
+      color:#4cd3c2;
+  }
